@@ -57,6 +57,12 @@ namespace CTS.WebApp.Tests
             Assert.AreEqual(1, numCarsAfter - numCarsBefore);
         }
 
+        [TestMethod]
+        public void TestFail()
+        {
+            throw new AssertFailedException("Too many astericks.");
+        }
+
         private XElement LoadCarsFromFile()
         {
             return XElement.Load("Cars.xml");
