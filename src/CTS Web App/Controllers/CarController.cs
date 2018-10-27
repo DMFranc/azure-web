@@ -15,7 +15,7 @@ namespace CTS_Web_App.Controllers
         // GET: Car
         public ActionResult Index()
         {
-
+            //this a test
             XElement element = LoadCarsFromFile();
 
             IEnumerable<Car> cars = LoadCars(element);
