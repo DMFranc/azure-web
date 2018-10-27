@@ -6,4 +6,10 @@
     <Name>2</Name>
     <Year>2</Year>
   </Car>
+  <Car>
+    <ID>2</ID>
+    <Type>Sedan</Type>
+    <Name>Hundai I30</Name>
+    <Year>2018</Year>
+  </Car>
 </CarDetails>
